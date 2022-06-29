@@ -20,6 +20,13 @@ export const GlobalStyle = createGlobalStyle`
     font-family: 'Titillium Web';
   }
 
+  h1, h3, h4, h5, h6, p {
+    padding: 0;
+    margin: 0;
+    font-size: 1rem;
+    line-height: 1rem;
+  }
+
   button {
     cursor: pointer;
   }
