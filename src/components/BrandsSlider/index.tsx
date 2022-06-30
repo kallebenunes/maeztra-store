@@ -8,7 +8,12 @@ const BrandsSlider = () => {
         <Container>
               <Swiper
                 spaceBetween={16}
-                slidesPerView={5}
+                slidesPerView={4}
+                breakpoints={{
+                    1440: {
+                        slidesPerView: 5,
+                    }
+                }}
                 >
                 <div className="container-start" slot="container-start">Marcas parceiras</div>
                 {sliderItems.map(item => {
