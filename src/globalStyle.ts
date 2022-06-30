@@ -11,11 +11,7 @@ export const GlobalStyle = createGlobalStyle`
     font-size: 16px;
   }
 
-  @media (max-width: 1440px){
-    :root {
-      font-size: 14px;
-    }
-  }
+ 
 
   * {
     margin: 0;
@@ -24,7 +20,7 @@ export const GlobalStyle = createGlobalStyle`
     box-sizing: border-box;
     text-decoration: none;
     list-style: none;
-    font-size: .875rem;
+    font-size: 1rem;
     font-family: 'Titillium Web';
   }
 

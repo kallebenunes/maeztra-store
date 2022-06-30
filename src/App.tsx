@@ -1,3 +1,4 @@
+import BestSellersShelf from './components/BestSellersShelf';
 import BrandsSlider from './components/BrandsSlider';
 import Header from './components/Header';
 import MainSlider from './components/MainSlider';
@@ -13,6 +14,7 @@ function App() {
         <MainSlider/>
         <ReasonsSlider/>
         <BrandsSlider/>
+        <BestSellersShelf/>
     </div>
   );
 }
