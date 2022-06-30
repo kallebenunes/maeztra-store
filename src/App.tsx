@@ -1,3 +1,4 @@
+import BrandsSlider from './components/BrandsSlider';
 import Header from './components/Header';
 import MainSlider from './components/MainSlider';
 import ReasonsSlider from './components/ReasonsSlider';
@@ -11,6 +12,7 @@ function App() {
         <Header/>
         <MainSlider/>
         <ReasonsSlider/>
+        <BrandsSlider/>
     </div>
   );
 }
