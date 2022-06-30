@@ -7,6 +7,14 @@ export const GlobalStyle = createGlobalStyle`
     --color-primary: #FAA500; 
     --color-white:  #ffffff;
     --color-gray: #EFEFEF;
+
+    font-size: 16px;
+  }
+
+  @media (max-width: 1440px){
+    :root {
+      font-size: 14px;
+    }
   }
 
   * {

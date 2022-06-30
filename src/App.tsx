@@ -1,5 +1,6 @@
 import Header from './components/Header';
 import MainSlider from './components/MainSlider';
+import ReasonsSlider from './components/ReasonsSlider';
 import { GlobalStyle } from './globalStyle';
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
         <GlobalStyle/>
         <Header/>
         <MainSlider/>
+        <ReasonsSlider/>
     </div>
   );
 }
