@@ -24,16 +24,16 @@ export default function Footeraccordion() {
                         <nav>
                             <ul>
                                 <li>
-                                    <a href=""> Quem Somos </a>
+                                    <a href="/"> Quem Somos </a>
                                 </li>
                                 <li>
-                                    <a href=""> Prazo de Envio </a>
+                                    <a href="/"> Prazo de Envio </a>
                                 </li>
                                 <li>
-                                    <a href=""> Trocas e Devoluções </a>
+                                    <a href="/"> Trocas e Devoluções </a>
                                 </li>
                                 <li>
-                                    <a href=""> Promoções e Cupons </a>
+                                    <a href="/"> Promoções e Cupons </a>
                                 </li>
                             </ul>
                         </nav>
@@ -50,13 +50,13 @@ export default function Footeraccordion() {
                         <nav>
                             <ul>
                                 <li>
-                                    <a href=""> Minha Conta </a>
+                                    <a href="/"> Minha Conta </a>
                                 </li>
                                 <li>
-                                    <a href=""> Meus Pedidos </a>
+                                    <a href="/"> Meus Pedidos </a>
                                 </li>
                                 <li>
-                                    <a href=""> Cadastre-se  </a>
+                                    <a href="/"> Cadastre-se  </a>
                                 </li>
                             </ul>
                         </nav>
@@ -73,10 +73,10 @@ export default function Footeraccordion() {
                         <nav>
                             <ul>
                                 <li>
-                                    <a href=""> Lojas </a>
+                                    <a href="/"> Lojas </a>
                                 </li>
                                 <li>
-                                    <a href=""> Endereço </a>
+                                    <a href="/"> Endereço </a>
                                 </li>
                             </ul>
                         </nav>         

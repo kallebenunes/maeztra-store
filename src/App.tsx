@@ -6,7 +6,8 @@ import Header from './components/Header';
 import MainSlider from './components/MainSlider';
 import ReasonsSlider from './components/ReasonsSlider';
 import { GlobalStyle } from './globalStyle';
-import Newsletter from './components/Newsletter/index';
+
+import NewsletterModal from './components/NewsletterModal';
 
 function App() {
 
@@ -20,6 +21,7 @@ function App() {
         <BestSellersShelf/>
         <CollectionBanner/>
         <Footer/>
+        <NewsletterModal/>
     </div>
   );
 }
