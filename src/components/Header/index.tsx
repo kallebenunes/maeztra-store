@@ -44,7 +44,6 @@ const Header = () => {
 
             </MainHeader>
 
-
            <MainHeaderMobile>
             <div>
                 
@@ -81,6 +80,7 @@ const Header = () => {
                     })}
                 </ul>
             </CategoryMenu>
+
         </Container>
     )
 }

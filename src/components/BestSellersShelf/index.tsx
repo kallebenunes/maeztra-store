@@ -21,17 +21,20 @@ const BestSellersShelf = () => {
               <Swiper
                 modules={[Navigation]}
                 spaceBetween={16}
-                slidesPerView={1}
+                slidesPerView={1.2}
                 navigation
                 breakpoints={{
                     1920: {
                         slidesPerView: 5
                     },
                     1440: {
-                        slidesPerView: 3
+                        slidesPerView: 4
+                    },
+                    1024: {
+                        slidesPerView: 3,
                     },
                     720: {
-                        slidesPerView: 2
+                        slidesPerView: 2.2
                     }
                 }}
                 >
@@ -41,7 +44,9 @@ const BestSellersShelf = () => {
                         <SwiperSlide>
                             <ProductCard>
                                 <div>
-                                    <img src={product.urlImg} alt={product.productName} />
+                                    <div>
+                                        <img src={product.urlImg} alt={product.productName} />
+                                    </div>
                                     <ColorSelector productColors={product.productColors} />
                                     
                                     <span>

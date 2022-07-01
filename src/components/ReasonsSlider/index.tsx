@@ -8,7 +8,7 @@ const ReasonsSlider = () => {
         <Container>
               <Swiper
                 spaceBetween={16}
-                slidesPerView={1}
+                slidesPerView={1.2}
                 breakpoints={{
                     1920: {
                         slidesPerView: 5
@@ -17,7 +17,7 @@ const ReasonsSlider = () => {
                         slidesPerView: 3
                     },
                     720: {
-                        slidesPerView: 2
+                        slidesPerView: 2.2
                     }
                 }}
                 >

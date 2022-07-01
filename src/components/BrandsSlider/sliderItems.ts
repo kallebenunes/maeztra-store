@@ -11,20 +11,20 @@ interface SliderItem {
 
 export const sliderItems: SliderItem[]  = [
   {
-    alt: "Logo Melissa",
-    urlImg: logoMelissa
-  },
-  {
     alt: "Logo Comma",
     urlImg: logoComma
   },
   {
-    alt: "Logo Zara",
-    urlImg: logoZara
+    alt: "Logo Melissa",
+    urlImg: logoMelissa
   },
   {
     alt: "Logo Forever 21",
     urlImg: logoForever21
+  },
+  {
+    alt: "Logo Zara",
+    urlImg: logoZara
   },
   {
     alt: "Logo Ann taylor",

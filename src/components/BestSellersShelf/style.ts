@@ -1,7 +1,5 @@
 import styled from 'styled-components'
 
-
-
 export const Container = styled.div`
   padding: 0 11rem 2rem 11rem;
 
@@ -14,6 +12,14 @@ export const Container = styled.div`
     padding: 2rem;
   }
 
+
+  @media (max-width: 1023px){
+    .swiper-button-next, 
+    .swiper-button-prev {
+      display: none;
+    }
+  }
+  
   .swiper-button-next, 
   .swiper-button-prev{
     color: #000000;
@@ -39,8 +45,6 @@ export const ColorSelector = styled.div`
   gap: .5rem;
 `
 
-
-
 export const ProductCard = styled.div`
 
   display: flex;
@@ -50,8 +54,13 @@ export const ProductCard = styled.div`
 
   div {
 
-    img {
-      max-width: 100%;
+    div:nth-of-type(1) {
+      background: #F2F2F2;
+      display: flex;
+      margin-bottom: 1rem;
+      img {
+        max-width: 100%;
+      }
     }
 
     span {

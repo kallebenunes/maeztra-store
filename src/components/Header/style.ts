@@ -7,12 +7,16 @@ export const Container  = styled.header`
 `;
 
 export const SearchBar = styled.div`
+  
+  display: flex;
+  flex-grow: 1;
+
   input {
+    flex-grow: 1;
     background: var(--color-gray);
     border-radius: 0.4rem 0rem 0rem .4rem;
     padding: 0.5rem 1rem;
     outline: transparent;
-    
     
   }
 
@@ -33,6 +37,7 @@ export const MainHeader = styled.div`
   align-items: center;
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.08);
   padding: 1rem 11rem;
+  gap: 4rem;
 
   @media (max-width: 1320px){
     /* display: none; */
