@@ -1,13 +1,21 @@
-
+import { MouseEvent, useState } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation } from 'swiper';
-
-import { Container, ColorSelector,ProductCard } from './style'
+import { Container,ProductCard} from './style'
 import { productList } from './productList';
+import ColorSelector from '../ColorSelector';
+
 
 import 'swiper/css/navigation';
 
 const BestSellersShelf = () => {
+
+    const [colorSelectedIndex, setColorSelectedIndex] = useState<number>() 
+
+    function handleSelectColor(e: MouseEvent){
+        console.log(e.currentTarget)
+    }
+
     return (
         <Container>
               <Swiper
@@ -34,7 +42,8 @@ const BestSellersShelf = () => {
                             <ProductCard>
                                 <div>
                                     <img src={product.urlImg} alt={product.productName} />
-                                    <ColorSelector></ColorSelector>
+                                    <ColorSelector productColors={product.productColors} />
+                                    
                                     <span>
                                         { new Intl.NumberFormat('PT-BR', { style: 'currency', currency: 'BRL' }).format(product.productPrice) }
                                     </span>

@@ -1,5 +1,7 @@
 import styled from 'styled-components'
 
+
+
 export const Container = styled.div`
   padding: 0 11rem 2rem 11rem;
 
@@ -32,9 +34,12 @@ export const Container = styled.div`
   }
 
 `;
+export const ColorSelector = styled.div`
+  display: flex;
+  gap: .5rem;
+`
 
 
-export const ColorSelector = styled.div``
 
 export const ProductCard = styled.div`
 
@@ -75,7 +80,7 @@ export const ProductCard = styled.div`
     }
   }
 
-  button {
+  & > button {
     background: var(--color-primary);
     color: var(--color-white);
     width: 100%;

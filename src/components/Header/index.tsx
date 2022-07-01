@@ -5,7 +5,7 @@ import iconHeart from '../../assets/icon-heart.svg'
 import iconBag from '../../assets/icon-bag.svg'
 import toggleIcon from '../../assets/toggle-icon.svg'
 import searchIcon from '../../assets/search-icon.svg'
-
+const categoryList: string[] = ['Novidades', 'Vestidos', "Roupas", 'Sapatos', 'Lingerie', 'Acessórios', 'OUTLET']
 
 const Header = () => {
     return (
@@ -71,7 +71,15 @@ const Header = () => {
            </MainHeaderMobile>
 
             <CategoryMenu>
-
+                <ul>
+                    {categoryList.map(cateogry => {
+                        return (
+                            <li key={cateogry}>
+                                <a href="/">{cateogry}</a>
+                            </li>
+                        )
+                    })}
+                </ul>
             </CategoryMenu>
         </Container>
     )

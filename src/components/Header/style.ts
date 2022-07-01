@@ -86,7 +86,33 @@ export const TopBar = styled.p`
   }  
 `
 
-export const CategoryMenu = styled.nav``
+export const CategoryMenu = styled.nav`
+
+  @media(max-width: 1024px){
+    display: none;
+  }
+
+  ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 9rem;
+
+    li {
+      a {
+        padding: .5rem 2rem;
+        display: block;
+        color: var(--color-dark);
+        transition: .2s color;
+
+        &:hover {
+          color: var(--color-primary);
+        }
+      }
+    }
+
+  }
+`
 
 export const MainHeaderMobile = styled.div`
 
