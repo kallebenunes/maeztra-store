@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/maeztra-store/static/css/main.0554d334.css",
+    "main.js": "/maeztra-store/static/js/main.ad196b4f.js",
+    "static/media/main-slider-image.png": "/maeztra-store/static/media/main-slider-image.540e837f8b597698fd22.png",
+    "static/media/collection-banner.png": "/maeztra-store/static/media/collection-banner.a550b1f560fda89e9287.png",
+    "static/media/newsletter-image.png": "/maeztra-store/static/media/newsletter-image.464d77599a3255325bb2.png",
+    "static/media/product-2.png": "/maeztra-store/static/media/product-2.773de2b96bcf382456c9.png",
+    "static/media/product-1.png": "/maeztra-store/static/media/product-1.4d479b30c010a0f5dfec.png",
+    "static/media/icon-change.svg": "/maeztra-store/static/media/icon-change.9facf862ba964df7cfc13f1b39e4322c.svg",
+    "static/media/icon-world.svg": "/maeztra-store/static/media/icon-world.f18ea7de57b57817ab391a2113c6b0dc.svg",
+    "static/media/logo-maeztra-white.svg": "/maeztra-store/static/media/logo-maeztra-white.a21cbc070c9a611886a5389182999d9e.svg",
+    "static/media/icon-label.svg": "/maeztra-store/static/media/icon-label.4c6247741dd5918f1775f2cf7933417e.svg",
+    "static/media/icon-truck.svg": "/maeztra-store/static/media/icon-truck.961def0b8490b01eb2fbbbf696bad5f4.svg",
+    "static/media/icon-deposit.svg": "/maeztra-store/static/media/icon-deposit.4670facd5d9b97d0210dedc0cd6ff1e9.svg",
+    "static/media/icon-mastercard.svg": "/maeztra-store/static/media/icon-mastercard.98f0ac24485061c5c1ff037a83063851.svg",
+    "static/media/logo-vtex.svg": "/maeztra-store/static/media/logo-vtex.0343480669eb52e9cce99e764dbb57a1.svg",
+    "static/media/logo.svg": "/maeztra-store/static/media/logo.dc939f26b70f8ce891572620b48daece.svg",
+    "static/media/icon-instagram.svg": "/maeztra-store/static/media/icon-instagram.8f5f736448c0fb26a630700649a48613.svg",
+    "static/media/icon-visa.svg": "/maeztra-store/static/media/icon-visa.29c8072c239d23a14e403db7cff73329.svg",
+    "index.html": "/maeztra-store/index.html",
+    "static/media/send-icon.svg": "/maeztra-store/static/media/send-icon.6870de85aa30b0a36f2c4a154c9cdbf3.svg",
+    "static/media/icon-bag.svg": "/maeztra-store/static/media/icon-bag.3f2d9f0efa6c4eaa1f666976201a964a.svg",
+    "static/media/icon-heart.svg": "/maeztra-store/static/media/icon-heart.ce5579a23c3a2a01b5a492c62de22764.svg",
+    "static/media/toggle-icon.svg": "/maeztra-store/static/media/toggle-icon.9e2746e2be8b3e65175b9a8175711f63.svg",
+    "static/media/icon-person.svg": "/maeztra-store/static/media/icon-person.2c9211200a124ccadd601ae908031b66.svg",
+    "static/media/search-icon.svg": "/maeztra-store/static/media/search-icon.cb3400d301efefc9b17d39c42ed2351d.svg",
+    "static/media/icon-youtube.svg": "/maeztra-store/static/media/icon-youtube.a9768b50c6e827f77b052f13511799dd.svg",
+    "static/media/icon-linkedin.svg": "/maeztra-store/static/media/icon-linkedin.33e7a284c717e55e6992f6fac65edde8.svg",
+    "static/media/icon-facebook.svg": "/maeztra-store/static/media/icon-facebook.bed7d4f0aa0ceb0a54bc6f5ea4514b21.svg",
+    "static/media/mail-icon.svg": "/maeztra-store/static/media/mail-icon.503bb4f47057b2cf5e19d572f774d86c.svg",
+    "main.0554d334.css.map": "/maeztra-store/static/css/main.0554d334.css.map",
+    "main.ad196b4f.js.map": "/maeztra-store/static/js/main.ad196b4f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0554d334.css",
+    "static/js/main.ad196b4f.js"
+  ]
+}
