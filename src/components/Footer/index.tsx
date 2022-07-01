@@ -4,6 +4,7 @@ import { Container, FooterNav, AdditionalInformations } from './style'
 import SocialNetworks from '../SocialNetworks'
 import PaymentMethods from '../PaymentMethods'
 import DevelopersInformation from '../DevelopersInformation'
+import Footeraccordion from '../FooterAccordion'
 
 
 const Footer = () => {
@@ -11,7 +12,7 @@ const Footer = () => {
         <Container>
             
              <Newsletter/>
-
+            <Footeraccordion/>
             <FooterNav>
                   <nav>
                     <h1>Informações</h1>
@@ -31,7 +32,7 @@ const Footer = () => {
                     </ul>
                   </nav>
                   <nav>
-                    <h1>Informações</h1>
+                    <h1>Minha Conta</h1>
                     <ul>
                         <li>
                             <a href=""> Minha Conta </a>

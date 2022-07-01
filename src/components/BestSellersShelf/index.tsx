@@ -13,8 +13,19 @@ const BestSellersShelf = () => {
               <Swiper
                 modules={[Navigation]}
                 spaceBetween={16}
-                slidesPerView={5}
+                slidesPerView={1}
                 navigation
+                breakpoints={{
+                    1920: {
+                        slidesPerView: 5
+                    },
+                    1440: {
+                        slidesPerView: 3
+                    },
+                    720: {
+                        slidesPerView: 2
+                    }
+                }}
                 >
                 <div className="container-start" slot="container-start">Mais Pedidos</div>
                 {productList.map(product => {

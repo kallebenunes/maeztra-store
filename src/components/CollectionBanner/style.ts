@@ -3,9 +3,20 @@ import styled from "styled-components";
 export const Container = styled.div`
 
   margin: 2rem 11rem;
-
-  display: flex;
+  display: grid;
+  grid-template-columns: 40% 60%;
   align-items: center;
+  justify-content: center;
+
+  @media (max-width: 1024px){
+    margin: 2rem;
+
+    grid-template-columns: 1fr;
+  }
+
+  @media (max-width: 360px){
+    margin: 1rem 0;
+  }
 
   div {
     padding: 3rem;
@@ -17,7 +28,8 @@ export const Container = styled.div`
   }
 
   img {
-    max-width: 60%;
+    max-width: 100%;
+    object-fit: cover;
   }
 
 `;

@@ -1,6 +1,16 @@
 import styled from 'styled-components'
 
 export const Container = styled.div`
+
+@media (max-width: 1024px){
+    padding: 4rem;
+  }
+
+  @media (max-width: 360px){
+    padding: 2rem;
+  }  
+
+
   /* margin: 0rem 20rem; */
   padding: 2rem 20rem;
   margin-bottom: 2rem;
@@ -9,6 +19,9 @@ export const Container = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1.2rem;
+  text-align: center;
 
   h1 {
     margin-right: 3rem;

@@ -1,5 +1,6 @@
 import styled from 'styled-components'
 
+
 export const Container  = styled.header`
   margin: 0 auto;
   width: 100%;
@@ -31,8 +32,16 @@ export const MainHeader = styled.div`
   justify-content: space-between;
   align-items: center;
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.08);
-
   padding: 1rem 11rem;
+
+  @media (max-width: 1320px){
+    /* display: none; */
+    padding: 1rem 6rem;
+  }
+
+  @media (max-width: 1024px){
+    display: none;
+  }
 
   nav {
     ul {
@@ -71,6 +80,37 @@ export const TopBar = styled.p`
   color: var(--color-white);
   background: var(--color-dark);
   font-weight: 100;
+
+  @media (max-width: 360px){
+    padding: 2rem;
+  }  
 `
 
 export const CategoryMenu = styled.nav``
+
+export const MainHeaderMobile = styled.div`
+
+  padding: 2rem 2rem;
+  display: none;
+  justify-content: space-between;
+  align-items: center;
+
+  @media (max-width: 1024px){
+    display: flex;
+  }
+
+  button {
+    background: transparent;
+  }
+
+  div { 
+    display: flex;
+    align-items: center;
+
+     button:nth-of-type(1) {
+      margin-right: 1rem;
+     }
+  }
+
+
+`

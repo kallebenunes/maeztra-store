@@ -27,15 +27,37 @@ export const Container = styled.div`
     background: var(--color-primary);
   }
 
+  @media (max-width: 720px){
+    .swiper-button-next {
+      right: 20px;
+    }
+    
+    .swiper-button-prev{
+      left: 20px;
+    }
+  }
+
+  @media (max-width: 360px){
+    .swiper-button-next {
+      right: 10px;
+    }
+    
+    .swiper-button-prev{
+      left: 10px;
+    }
+  }
+
 `
 
 export const SlideItem = styled.div`
-  
+
   font-family: 'Montserrat';
   color: var(--color-white);
 
   img {
     max-width: 100%;
+    min-height: 320px;
+    object-fit: cover;
   }
 
   h1 {
@@ -75,6 +97,39 @@ export const SlideItem = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: center;
+  
+  }
+
+  @media (max-width: 1024px){
+    h1 {
+      font-size: 1.5rem;
+      
+    }
+
+    div {
+      padding: 10rem;
+    }
+  }
+
+  @media (max-width: 720px){
+    div {
+      padding: 6rem;
+    }
+  }
+
+  @media (max-width: 360px){
+
+    h1 {
+      font-size: 1.5rem;
+    }
+
+    div {
+      padding: 3rem;
+    }
+
+    p {
+      font-size: 1rem;
+    }
   }
 
 `

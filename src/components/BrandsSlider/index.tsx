@@ -8,10 +8,16 @@ const BrandsSlider = () => {
         <Container>
               <Swiper
                 spaceBetween={16}
-                slidesPerView={4}
+                slidesPerView={1}
                 breakpoints={{
+                    1920: {
+                        slidesPerView: 5
+                    },
                     1440: {
-                        slidesPerView: 5,
+                        slidesPerView: 3
+                    },
+                    720: {
+                        slidesPerView: 2
                     }
                 }}
                 >

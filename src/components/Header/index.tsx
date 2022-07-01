@@ -1,8 +1,10 @@
-import { Container, SearchBar, TopBar, MainHeader, CategoryMenu  } from './style'
+import { Container, SearchBar, TopBar, MainHeader, CategoryMenu, MainHeaderMobile  } from './style'
 import logoImg from '../../assets/logo.svg'
 import iconPerson from '../../assets/icon-person.svg'
 import iconHeart from '../../assets/icon-heart.svg'
 import iconBag from '../../assets/icon-bag.svg'
+import toggleIcon from '../../assets/toggle-icon.svg'
+import searchIcon from '../../assets/search-icon.svg'
 
 
 const Header = () => {
@@ -42,6 +44,31 @@ const Header = () => {
 
             </MainHeader>
 
+
+           <MainHeaderMobile>
+            <div>
+                
+                <button>
+                    <img src={toggleIcon} alt="" />
+                </button>
+
+                <a href='/'>
+                    <img src={logoImg} alt="" />
+                </a>
+                
+            </div>
+
+            <div>
+                <button>
+                    <img src={iconBag} alt="" />
+                </button>
+
+                <button>
+                    <img src={searchIcon} alt="" />
+                </button>
+            </div>
+
+           </MainHeaderMobile>
 
             <CategoryMenu>
 

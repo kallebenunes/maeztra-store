@@ -3,6 +3,15 @@ import styled from 'styled-components'
 export const Container = styled.div`
   padding: 0 11rem 2rem 11rem;
 
+  @media (max-width: 1320px){
+    /* display: none; */
+    padding:0  6rem 2rem 6rem;
+  }
+
+  @media (max-width: 720px){
+    padding: 2rem;
+  }
+
   .swiper-button-next, 
   .swiper-button-prev{
     color: #000000;

@@ -10,7 +10,12 @@ export const Container = styled.div`
   div {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-between;
+    align-items: flex-start;
+    
+    p {
+      margin-bottom: .5rem;
+      color: var(--color-gray);
+    }
 }
 `;

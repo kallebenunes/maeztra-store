@@ -10,6 +10,22 @@ export const FooterNav = styled.div`
   grid-template-columns: 1fr 1fr 1fr;
   color: var(--color-dark);
 
+  @media(max-width: 1152px){
+    margin: 0 10rem 2rem 10rem;
+  }
+  
+  @media (max-width: 1024px){
+    display: none;
+  }
+
+  @media (max-width: 360px){
+    margin: 2rem;
+    grid-template-columns: 1fr;
+  }
+  /* @media(max-width: 1024px){
+    grid-template-columns: 1fr;
+  } */
+
   nav:nth-of-type(3){
     justify-self: end;
   }
@@ -42,11 +58,23 @@ export const FooterNav = styled.div`
 `;
 
 export const AdditionalInformations = styled.div`
+
+
+  @media (max-width: 720px){
+      padding: 2rem;
+  }
+
+  @media (max-width: 1024px) {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
   background: var(--color-dark);
   padding: 1rem 11rem;
   color: var(--color-white);
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
 `;
 
